@@ -50,12 +50,12 @@
             fzf
             tmux
             openconnect
-            (python312.withPackages(ps: with ps; [
+            (python314.withPackages(ps: with ps; [
                 numpy
                 matplotlib
                 polars
             ]))
-            python312Packages.pip
+            python314Packages.pip
             cargo
             go
             nodejs_latest
